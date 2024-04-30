@@ -14,15 +14,18 @@ disableKinds = ["taxonomy", "term"]
    image = "/RECREATOR3D_YOUR_PET1_IS_MY_FILAMENT.png"  # path relative to static directory
 
   links = [
-     { email = "mailto:josh@jrt3d.com" },
-     { link = { href = "http://recreator3d.com", text = "Recreator3d.com", target = "_self" } },
-     { discord = "https://discord.gg/KCZKk7V5DH" },
+     { link = { href = "http://recreator3d.com", text = "Recreator3d.com Office Website", target = "_self" } },
+     { discord = { href="https://discord.gg/KCZKk7V5DH", text = "Discord Community" } },
+     { email = {href = "mailto:josh@jrt3d.com", text = "Email us"} },
     # { apple = "https://www.apple.com" },
     # { codepen = "https://codepen.io/username" },
     # { dev = "https://dev.to/username" },
     # { discord = "https://discord.gg/invitecode" },
     # { dribbble = "https://dribbble.com/username" },
-    # { facebook = "https://facebook.com/username" },
+     { facebook = { href="https://www.facebook.com/groups/recreator3d", text = "Recreator3D User Group"} },
+     { facebook = { href="https://www.facebook.com/groups/recreator3dfrance", text = "Recreator3D French User Group"} },
+     { link = { href = "https://www.printables.com/@JRT3D/collections/175336", text = "Printables", target = "_self" } },
+#     { link = { href = "https://www.printables.com/@JRT3D/collections/175336", text = "Printables", target = "_self" } },
     # { flickr = "https://www.flickr.com/photos/username/" },
     # { foursquare = "https://foursquare.com/username" },
     # { github = "https://github.com/username" },
